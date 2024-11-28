@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="egzamin.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            >
+            <HorizontalStackLayout HorizontalOptions="End" >
+                <Label 
+                    Text="w koszyku: 0 szt."
+                    x:Name="lblKoszyk"
+                    />
+                <Image Source="koszyk.jpg" />
+                
+            </HorizontalStackLayout>
+            <StackLayout HeightRequest="30">
+                
+                <Label 
+                    Text="BESTSELLER" 
+                    HorizontalOptions="End"
+                    Margin="0,0,50,0"
+                    BackgroundColor="red"
+                    TextColor="White"
+                    Padding="5"
+                    x:Name="lblReklama"
+                   />
+            </StackLayout>
+                <Image
+                    Source="f1.jpg"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    Margin="10"
+                    x:Name="imgLakier"
+                />
+            <Label
+                Text="Lakier hybrydowy No Risk No story"
+                HorizontalOptions="Center"
+                FontAttributes="Bold"
+                x:Name="lblNazwa"
+                />
+            <Label
+                Text="27,29 PLN"
+                FontSize="20"
+                HorizontalOptions="Center"
+                x:Name="lblCena"
+                />
+            <Label
+                Text="Oszczedzasz 33%"
+                HorizontalOptions="Center"
+                BackgroundColor="Red"
+                TextColor="white"
+                Padding="5"
+                Margin="5"
+                x:Name="lblOpis"
+                />
+            <Button
+                Text="dodaj do koszyka"
+                HorizontalOptions="Center"
+                WidthRequest="200"
+                Clicked="btnDoKoszyka"
+                />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Text="poprzedni"
+                    Margin="20"
+                    Clicked="btnPoprzedni"
+                    />
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Text="następny"
+                    Margin="20"
+                    Clicked="btnNastepny"
+                    />
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

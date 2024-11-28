@@ -1,0 +1,16 @@
+plik;odcień;nazwa,cena;info;reklama
+f1;fioletowy;No Risk No story;27,29;Oszczedzasz 33%
+f2;fioletowy;Moony Whispers;38,99;Mój wybór Kasia Kot;NOWOŚĆ
+f3;fioletowy;Midnight Love; 27,99;XMAS Trend
+f4;fioletowy;New Bridge;32,99;Efekt Flash;NOWOŚĆ
+f5;fioletowy;Top Glow Violet;29,99;oszczedzasz 26%
+c1;czerwony;Alizee;27,29;Oszczędzasz 31%
+c2;czerwony;Mysterious Tale; 32,99; GET THE LOOK
+c3;czerwony;Aloha Mood;38,99;Mój wybór - Sara James
+c4;czerwony;Fiery Flamenco; 33,99;XMAS Trend;NOWOŚĆ
+c5;czerwony;Pure Currant;4,99;PROMOCJA
+z1;złoty;Top Glow Gold;29,99;XMAS Trend
+z2;złoty;Sparkling Kiss;27,99; XMAS Trend
+z3;złoty;g-INCREDIBLE;25,99;MANI & PEDI w 20 min!
+z4;złoty;White Sparkle;9,99;Oszczedzasz 76%;PROMOCJA
+z5;złoty;Glow Twinkle; 39,99;XMAS Trend
