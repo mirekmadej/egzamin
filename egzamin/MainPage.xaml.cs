@@ -34,6 +34,13 @@
             lakiery.Add(new Lakier(1,"f1.jpg","fioletowy","No risk No Story", "Oszczedzasz 33%", "Bestseller", 27.29));
             lakiery.Add(new Lakier(2,"f2.jpg","fioletowy", "Moony Whispers", "Mój wybór Kasia Kot", "PROMOCJA", 27.29));
             lakiery.Add(new Lakier(3,"f3.jpg","fioletowy", "Midnight Love", "XMAS Trend", "", 27.29));
+            lakiery.Add(new Lakier(4,"f4.jpg","fioletowy", "New Bridge", "Efekt Flash", "NOWOŚĆ", 32.99));
+            lakiery.Add(new Lakier(5,"f5.jpg","fioletowy", "Top Glow Violet", "oszczedzasz 26%", "", 27.29));
+            lakiery.Add(new Lakier(1,"c1.jpg","czerwony", "Alizee", "Oszczędzasz 31%", "", 27.29));
+            lakiery.Add(new Lakier(2,"c2.jpg", "czerwony", "Mysterious Tale", "GET THE LOOK", "", 27.29));
+            lakiery.Add(new Lakier(3,"c3.jpg", "czerwony", "Aloha Mood", "Mój wybór - Sara James", "", 27.29));
+            lakiery.Add(new Lakier(4,"c4.jpg", "czerwony", "Fiery Flamencot", "XMAS Trend", "NOWOŚĆ", 27.29));
+            lakiery.Add(new Lakier(5,"c5.jpg", "czerwony", "Pure Currant", "PROMOCJA", "", 27.29));
             ileLakierow = lakiery.Count;
             InitializeComponent();
         }

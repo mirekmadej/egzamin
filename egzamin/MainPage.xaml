@@ -29,8 +29,8 @@
                 <Image
                     Source="f1.jpg"
                     HorizontalOptions="Center"
-                    WidthRequest="200"
-                    Margin="10"
+                    WidthRequest="400"
+                    Margin="5"
                     x:Name="imgLakier"
                 />
             <Label
@@ -74,6 +74,8 @@
                     Grid.Column="0"
                     Text="poprzedni"
                     Margin="20"
+                    WidthRequest="150"
+                    BackgroundColor="Gray"
                     Clicked="btnPoprzedni"
                     />
                 <Button
@@ -81,6 +83,10 @@
                     Grid.Column="1"
                     Text="następny"
                     Margin="20"
+                    
+                    WidthRequest="150"
+              
+                    BackgroundColor="Gray"
                     Clicked="btnNastepny"
                     />
 
